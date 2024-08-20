@@ -1,3 +1,12 @@
+## Please, do not remove this repository
+
+This plugin is used to built the Android app with Cordova.
+
+This repo is a fork of the original cordova-plugin-local-notification-12 repository. The original repository doesn't request permission for the SCHEDULE_EXACT_ALARM. This permission is not granted by default, causing the app to crash in some devices.
+
+For more information about the fix, please check the following issue:
+[Android 14 SCHEDULE_EXACT_ALARM permission required. Permission is now defaulted to false even with manifest tag.](https://github.com/bhandaribhumin/cordova-plugin-local-notification-12/issues/15#issuecomment-2050614479)
+
 
 <p align="left"><b><a href="https://github.com/katzer/cordova-plugin-local-notifications/tree/example-x">SAMPLE APP</a> :point_right:</b></p>
 
